@@ -5,3 +5,15 @@ body {
 h1 {
 	text-align: center;
 }
+
+textarea {
+	resize: none;
+}
+
+.button {
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	border: 2px solid black;
+	margin: 5px;
+}

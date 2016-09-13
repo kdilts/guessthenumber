@@ -6,5 +6,13 @@
 	</head>
 	<body>
 		<h1>Guess The Number</h1>
+		<div>
+			<textarea readonly cols="4" rows="1"></textarea>
+			<div>
+				<div class="button"></div>
+				<div class="button"></div>
+				<div class="button"></div>
+			</div>
+		</div>
 	</body>
 </html>
