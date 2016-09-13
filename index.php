@@ -2,8 +2,9 @@
 <html>
 	<head>
 		<title>Guess The Number</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	</head>
-	<body bgcolor="#808080">
+	<body>
 		<h1>Guess The Number</h1>
 	</body>
 </html>
