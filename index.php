@@ -10,6 +10,7 @@
 
 		<div id="numberPad">
 			<form>
+				<label for="guess"></label>
 				<input type="text" id="guess" readonly style="width:110px"/>
 				<div>
 					<div>
