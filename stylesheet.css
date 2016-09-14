@@ -23,5 +23,21 @@ textarea {
 }
 
 .button:hover {
+	background-color: orangered;
+}
+
+.button:active {
 	background-color: green;
+}
+
+#guess {
+	background-color: red;
+	border: 3px solid black;
+	border-radius: 10px;
+	margin: 1px;
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
