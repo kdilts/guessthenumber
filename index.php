@@ -8,7 +8,7 @@
 	<body>
 		<h1>Guess The Number</h1>
 
-		<div style="border:2px black solid; width:150px;">
+		<div id="numberPad">
 			<form>
 				<input type="text" id="guess" readonly style="width:110px"/>
 				<div>
@@ -34,6 +34,47 @@
 						<input type="button" class="button" value="0"/>
 						<input type="button" class="button" value="E"/>
 						<input type="button" class="button" value="C"/>
+					</div>
+				</div>
+			</form>
+		</div>
+
+		<div id="displayPanel">
+			<form>
+				<div>
+					<div>
+						<input type="button" class="display" value="" disabled/>
+						<input type="button" class="display" value="" disabled/>
+						<input type="button" class="display" value="" disabled/>
+						<input type="button" class="display" value="" disabled/>
+					</div>
+
+					<div>
+						<input type="button" class="display"  value="" disabled/>
+						<input type="button" class="display" value="" disabled/>
+						<input type="button" class="display" value="" disabled/>
+						<input type="button" class="display" value="" disabled/>
+					</div>
+
+					<div>
+						<input type="button" class="display" value="" disabled/>
+						<input type="button" class="display" value="" disabled/>
+						<input type="button" class="display" value="" disabled/>
+						<input type="button" class="display" value="" disabled/>
+					</div>
+
+					<div>
+						<input type="button" class="display" value="" disabled/>
+						<input type="button" class="display" value="" disabled/>
+						<input type="button" class="display" value="" disabled/>
+						<input type="button" class="display" value="" disabled/>
+					</div>
+
+					<div>
+						<input type="button" class="display" value="" disabled/>
+						<input type="button" class="display" value="" disabled/>
+						<input type="button" class="display" value="" disabled/>
+						<input type="button" class="display" value="" disabled/>
 					</div>
 				</div>
 			</form>

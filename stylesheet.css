@@ -1,8 +1,5 @@
 body {
 	background-color: grey;
-}
-
-h1 {
 	text-align: center;
 }
 
@@ -37,4 +34,26 @@ h1 {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
+}
+
+.display {
+	color:black;
+	background-color: red;
+	border: 3px solid black;
+	border-radius: 10px;
+	margin: 1px;
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#numberPad {
+	display: inline-block;
+}
+
+#displayPanel {
+	display: inline-block;
+	margin-left: 50px;
 }
